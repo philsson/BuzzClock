@@ -6,6 +6,7 @@ Use a regular alarm clock with motor and bell and an ESP32 for this project.\
      width="250" />
 
 ## Software description
+The project is setup in VSCode with plattform IO. The whole code resides in main.cpp and can easily be opened as an Arduino project by renaming it .ino.\
 The ESP is set to deep sleep at all times and wakes up on one of following three conditions, taking stated actions:
 ### 1. The Alarm is activated
 * Connect to Wifi
